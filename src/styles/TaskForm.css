@@ -1,0 +1,50 @@
+/* TaskForm.css */
+.task-form {
+  max-width: 900px;
+  margin: 0 auto;
+  width: 80%;
+  margin-bottom: 20px;
+  margin-top: 2em;
+  display: flex;
+  background: #1c77c3;
+  flex-wrap: wrap;
+  border-radius: 2em;
+  padding: 1em;
+}
+
+.task-form h1 {
+  flex-basis: 100%;
+  text-align: center;
+  margin-bottom: 1em;
+  color: white;
+}
+
+.task-input,
+.description-input {
+  flex-basis: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333;
+}
+
+.save-button {
+  background-color: #20a364;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  flex-basis: 50%;
+  margin-top: 1em;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 0px auto;
+}
+
+.save-button:hover {
+  background-color: #fafffd;
+  color: #1c77c3;
+}

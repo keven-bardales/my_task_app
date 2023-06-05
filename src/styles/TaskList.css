@@ -1,0 +1,14 @@
+.empty-message {
+  text-align: center;
+  color: white;
+}
+
+.task-list {
+  max-width: 900px;
+  margin: 0px auto;
+  width: 80%;
+  margin-top: 3em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
